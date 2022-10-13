@@ -13,13 +13,13 @@ for(let i = 1; i <= 100; i++ ){
   box.classList.add('box');
  
   if ((!(i % fizz)) && (!(i % buzz))){
-    box.classList.add('bg-orange');
+    box.classList.add('bg-ochra');
     stampInBox = 'FizzBuzz';
   }else if (!(i % fizz)){
-    box.classList.add('bg-green')
+    box.classList.add('bg-darkcyan')
     stampInBox = 'Fizz';
   }else if (!(i % buzz)){
-    box.classList.add('bg-lightblue')
+    box.classList.add('bg-seablue')
     stampInBox = 'Buzz'
   }else {
     box.classList.add('bg-lightyellow')

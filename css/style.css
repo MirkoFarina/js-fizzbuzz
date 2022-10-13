@@ -6,23 +6,28 @@
 
 body {
   padding-top: 100px;
-  background-color: gainsboro;
+  background-color: #5FAFB3;
+  text-align: center;
+}
+h1{
+  margin-bottom: 100px;
+  font-size: 4rem;
 }
 
-.bg-orange {
-  background-color: orange;
+.bg-ochra {
+  background-color: #EBAB00;
 }
 
-.bg-green {
-  background-color: green;
+.bg-darkcyan {
+  background-color: #2F6F6B;
 }
 
-.bg-lightblue {
-  background-color: rgb(15, 111, 238);
+.bg-seablue {
+  background-color: #0B6C94;
 }
 
 .bg-lightyellow {
-  background-color: rgb(208, 255, 0);
+  background-color: #EBDC4F;
 }
 
 .container {
