@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding-top: 100px;
+  background-color: gainsboro;
+}
+
+.bg-orange {
+  background-color: orange;
+}
+
+.bg-green {
+  background-color: green;
+}
+
+.bg-lightblue {
+  background-color: rgb(15, 111, 238);
+}
+
+.bg-lightyellow {
+  background-color: rgb(208, 255, 0);
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: calc(100% / 10 - 10px);
+  aspect-ratio: 1/1;
+  margin-bottom: 10px;
+}
